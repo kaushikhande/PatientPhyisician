@@ -2,22 +2,22 @@
 
 ### Patient and Physician application
 
-patient belongs_to user
-physician belongs_to user
+1. patient belongs_to user
+2. physician belongs_to user
 
-user has_one patient
-user has_one physician
+3. user has_one patient
+4. user has_one physician
 
-Create user model using devise gem
+5. Create user model using devise gem
 
-patient home page -- book an appointment with physicians
-List of upcoming appointemnts
+6. patient home page -- book an appointment with physicians
+   List of upcoming appointemnts
  
-physician home page -- create an appointemnt with patient
-List of upcoming appointemnts
+7. physician home page -- create an appointemnt with patient
+   List of upcoming appointemnts
 
-Welcome controller to register as an patient
-or physician 
-redirect to home page of respective type
+8. Welcome controller to register as an patient
+   or physician 
+   redirect to home page of respective type
 
-patient profile and physician profile
+9. patient profile and physician profile
