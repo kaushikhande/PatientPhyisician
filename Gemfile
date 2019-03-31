@@ -64,3 +64,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
 gem 'devise'
+
+gem "therubyracer"
+
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+
+gem "twitter-bootstrap-rails"
