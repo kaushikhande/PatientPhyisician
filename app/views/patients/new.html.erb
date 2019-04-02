@@ -1,0 +1,11 @@
+<%= form_with(model: @patient, local: true) do |form| %>
+  <p>
+    <%= form.label :name, "Name" %>
+  </p>
+  <p>
+    <%= form.text_field :name %>
+  </p>
+  <p>
+    <%= form.submit "Submit", :disable_with => 'Submiting...' %>
+  </p>
+<% end %>
