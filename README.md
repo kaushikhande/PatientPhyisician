@@ -21,3 +21,5 @@
    redirect to home page of respective type
 
 9. patient profile and physician profile
+
+10. Add link to view patient profile on welcome page
